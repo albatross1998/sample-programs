@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-int a,b,sum;
+int a,b,product;
 
 printf("enter first operand");
 scanf("%d",&a);
@@ -9,7 +9,7 @@ scanf("%d",&a);
 printf("enter second operand");
 scanf("%d",&b);
 
-sum=a+b;
+product=a*b;
 
-printf("Sum=%d",sum);
+printf("Product=%d",sum);
 }
